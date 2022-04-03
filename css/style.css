@@ -13,13 +13,14 @@ body {
     font-size: 62.5%;
 }
 
-.box {
+.card {
     background-color:  hsl(0, 0%, 100%);
     width: 20rem;
     border-radius: 30px;
-    margin: 10% auto;
+    margin: 10rem auto;
     box-shadow: 5px 5px 10px lightgray;
     padding-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 img {
