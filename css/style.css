@@ -7,16 +7,19 @@
 }
 
 body {
-    background-color: hsl(218, 45%, 89%);    
+    background-color: hsl(218, 45%, 89%);  
+    height: auto;
+    width: auto;
+    font-size: 62.5%;
 }
 
 .box {
     background-color:  hsl(0, 0%, 100%);
-    width: 350px;
-    height: 550px;
+    width: 20rem;
     border-radius: 30px;
-    margin: 7% auto;
+    margin: 10% auto;
     box-shadow: 5px 5px 10px lightgray;
+    padding-bottom: 3rem;
 }
 
 img {
@@ -28,7 +31,7 @@ img {
 h1, p {
     text-align: center;
     font-family: 'Outfit', sans-serif;  
-    padding: 10px 25px;
+    padding: 15px 25px;
 }
 
 h1 {
@@ -37,7 +40,7 @@ h1 {
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size:17px;
+    font-size:1rem;
 }
 
 .attribution { 
@@ -47,4 +50,6 @@ p {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
 
